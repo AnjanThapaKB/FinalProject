@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Live My Life</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <header>
+        <a href="homepage.html"><img class="bloglogo" src ="C:\Users\Anzn\Desktop\project1\assets\bloglogo.png"> </a>
+      <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="homepage.html#updates">Updates</a></li>
+            <li><a href="homepage.html#about">About</a></li>
+            <li><a href="homepage.html#InterestsAndHobbies">Interests</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+</head>
+
+
+                    <!-- Body -->
+  <body>
+    
+<section>
+    <center><h1>Blogs</h1></center>
+
+    <div class="blog-list">
+        <div class="blog-card" onclick="openBlog('blog1.html')">
+            <img src="C:\Users\Anzn\Desktop\project1\pietarsaari.jpg" alt="Pietarsaari" class="card-image">
+            <h2>Exploring Pietarsaari</h2>
+            <p>A Hidden Gem!</p>
+        </div>
+        <div class="blog-card" onclick="openBlog('blog2.html')">
+            <img src="C:\Users\Anzn\Desktop\project1\kokkola.jpg" alt="Kokkola" class="card-image">
+            <h2>Visiting Kokkola</h2>
+            <p>A Coastal Heaven in Finland.</p>
+        </div>
+        <div class="blog-card" onclick="openBlog('blog3.html')">
+            <img src="C:\Users\Anzn\Desktop\project1\vaasa.jpg" alt="Vaasa" class="card-image">
+            <h2>Experiencing Vaasa</h2>
+            <p>History, Innovation, and Nature</p>
+        </div>
+    </div>
+    
+</section>>
+
+    <footer>
+        <p>&copy; 2024 Anjan. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openBlog(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
